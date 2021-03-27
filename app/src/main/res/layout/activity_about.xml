@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/about_text"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center"
+    tools:context=".about">
+
+    <TextView
+        android:id="@+id/about"
+        android:layout_width="309dp"
+        android:layout_height="264dp"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="413dp"
+        android:gravity="center"
+        android:text="THIS APP IS CREATED FOR LEARNING PURPOSE. NO COMMERCIAL USE ALLOWED"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/about_createdby"
+        android:layout_width="345dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="29dp"
+        android:text="CREATED BY NKY \n All Right Reserved"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
